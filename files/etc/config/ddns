@@ -1,0 +1,16 @@
+
+config ddns 'global'
+	option ddns_dateformat '%F %R'
+	option ddns_loglines '250'
+	option upd_privateip '0'
+
+config service 'aliyun'
+	option service_name 'aliyun.com'
+	option enabled '1'
+	option lookup_host 'www.juedy.top'
+	option domain '@juedy.top'
+	option username 'LTAI4GB8W2SUUveZLQosgaze'
+	option password 'PgmU1OcIF6KEgegYuTZNN9mInQpdeq'
+	option ip_source 'web'
+	option ip_url 'http://ip.3322.net'
+	option interface 'lan'
