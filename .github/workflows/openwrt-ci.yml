@@ -6,13 +6,17 @@
 #
 # Copyright (C) 2020 KFERMercer
 #
-name: OpenWrt-CI
+name: Build OpenWrt
 
 on:
-  schedule:
-    - cron: 0 20 * * *
-  release:
-    types: [published]
+  repository_dispatch:
+  workflow_dispatch:
+    inputs:
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'false'
+
 
 jobs:
 
