@@ -14,5 +14,4 @@ src-git lienol https://github.com/harry3633/openwrt-package
 src-git passwall https://github.com/xiaorouji/openwrt-passwall
 src-git openclash https://github.com/vernesong/OpenClash
 src-git OpenAppFilter https://github.com/Lienol/ttopenwrt-OpenAppFilter
-src-git jd-dailybonus https://github.com/jerrykuku/luci-app-jd-dailybonus
 src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
