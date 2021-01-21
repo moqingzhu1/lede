@@ -14,4 +14,5 @@ src-git passwall https://github.com/xiaorouji/openwrt-passwall
 src-git openclash https://github.com/vernesong/OpenClash
 src-git OpenAppFilter https://github.com/Lienol/ttopenwrt-OpenAppFilter
 src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
-src-git bandwidthd https://github.com/AlexZhuo/luci-app-bandwidthd.git
+src-git liuliangjiankong https://github.com/AlexZhuo/luci-app-bandwidthd.git
+src-git weixintuisong https://github.com/tty228/luci-app-serverchan.git
